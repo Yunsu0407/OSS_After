@@ -5,19 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6569b07-40ba-4a3b-96ce-b7109cc11c6e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/robots.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/CodeReview/CodeReview.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page7_CodeReview/CodeReview.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/CodeReview/CodeReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page7_CodeReview/CodeReview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/Foundation/Foundation.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Rest_Foundation/Foundation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/Foundation/Foundation.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Rest_Foundation/Foundation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/Foundation/페이지구성.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Rest_Foundation/페이지구성.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/Pages/Login/Callback.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page0_Login/Callback.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/Pages/Login/Images/kakao_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page0_Login/Images/kakao_logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/Pages/Login/Images/login_page.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page0_Login/Images/login_page.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/Pages/Login/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page0_Login/Login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/Pages/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page0_Login/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/Pages/Login/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page0_Login/setupProxy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/SetAssign/SetAssign.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page3_TaskCreation/SetAssign.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/SetAssign/SetAssign.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page3_TaskCreation/SetAssign.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/SetTeam/SetTeam.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page5_TeamAssignment/SetTeam.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/SetTeam/SetTeam.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page5_TeamAssignment/SetTeam.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/SetTeam/StudentTable/StudentTable.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page5_TeamAssignment/StudentTable/StudentTable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/SetTeam/StudentTable/StudentTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page5_TeamAssignment/StudentTable/StudentTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/SubmitAssign/SubmitAssign.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page4_TaskSubmission/SubmitAssign.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/Pages/SubmitAssign/SubmitAssign.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page4_TaskSubmission/SubmitAssign.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/DetailPage/DetailPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page2_Detail/Detail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/DetailPage/DetailPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page2_Detail/Detail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/DetailPage/DoughnutChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page2_Detail/DoughnutChart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/DetailPage/DummyTeam.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page2_Detail/DummyTeam.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/LectureList.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/LectureList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/LectureList.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/MainPage/CalendarStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page1_Main/CalendarStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/MainPage/ClassComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page1_Main/ClassComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/MainPage/ClassCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page1_Main/CreateClass.js" afterDir="false" />
@@ -29,11 +49,11 @@
       <change beforePath="$PROJECT_DIR$/frontend/src/components/MainPage/MainPage2.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page1_Main/Main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/MainPage/TaskCalendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page1_Main/TaskCalendar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/MainPage/TaskInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page1_Main/TaskInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/StudentQListPage/DummyQList.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Teammate/DummyQList.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/StudentQListPage/QListComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Teammate/TeammateComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/StudentQListPage/StudentQListPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Teammate/Teammate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/StudentQListPage/StudentQListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Teammate/Teammate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/동국대로고.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/동국대로고.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/StudentQListPage/DummyQList.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page6_Teammate/DummyQList.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/StudentQListPage/QListComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page6_Teammate/TeammateComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/StudentQListPage/StudentQListPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page6_Teammate/Teammate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/StudentQListPage/StudentQListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page6_Teammate/Teammate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/동국대로고.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/Pages/Page1_Main/동국대로고.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/db/LectureListinfo.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/logo.svg" beforeDir="false" />
@@ -85,6 +105,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\82107\Desktop\OSS_After\frontend\src\Pages\Page1_Main" />
       <recent name="C:\Users\82107\Desktop\OSS_After\frontend\src\Pages" />
     </key>
   </component>
@@ -103,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719023144032</updated>
-      <workItem from="1719023145273" duration="1382000" />
+      <workItem from="1719023145273" duration="1721000" />
     </task>
     <servers />
   </component>
