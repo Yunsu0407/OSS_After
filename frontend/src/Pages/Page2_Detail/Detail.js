@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import './DetailPage.css'; // DetailPage의 스타일 파일 import
-import Foundation from '../MainPage/Foundation.js';
-import '../StudentQListPage/StudentQListPage.js';
+import './Detail.css'; // DetailPage의 스타일 파일 import
+import Foundation from '../Page1_Main/Foundation.js';
+import '../Page6_Teammate/Teammate.js';
 import { BsPencilSquare } from "react-icons/bs";
 import DoughnutChart from './DoughnutChart';
 import { useNavigate, useLocation } from 'react-router-dom';
 import axios from 'axios';
-import MainPage2 from '../MainPage/MainPage2.js';
+import Main from '../Page1_Main/Main.js';
 import { LuLogOut } from "react-icons/lu";
 // import homeworkData from './DummyHW.json';
 // main 도전
 const API_BASE_URL = process.env.REACT_APP_LOCAL_API_BASE_URL;
 
-function DetailPage() {
+function Detail() {
   const location = useLocation();
   const navigate = useNavigate();
   //const course = location.state?.course || 'none course';
@@ -266,4 +266,4 @@ function DetailPage() {
 }
 
 
-export default DetailPage;
+export default Detail;

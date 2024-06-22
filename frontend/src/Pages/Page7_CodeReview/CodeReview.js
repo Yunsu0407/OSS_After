@@ -1,4 +1,4 @@
-import '../Foundation/Foundation.css'
+import '../Rest_Foundation/Foundation.css'
 import './CodeReview.css';
 import { useState, useEffect } from 'react';
 import axios from 'axios';

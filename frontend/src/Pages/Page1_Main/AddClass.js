@@ -1,10 +1,10 @@
 import { FaSearch } from "react-icons/fa";
 import Modal from 'react-modal';
 import React, { useState, useEffect, useCallback } from 'react';
-import ClassCreate from './ClassCreate.js';
+import CreateClass from './CreateClass.js';
 import axios from 'axios';
 
-function ClassSearch({ onClassAdded }) {
+function AddClass({ onClassAdded }) {
   const [isOpen, setIsOpen] = useState(false);
   const [lectureName, setLectureName] = useState("");
   const [lectures, setLectures] = useState([]); 
@@ -148,4 +148,4 @@ function ClassSearch({ onClassAdded }) {
   );
 }
 
-export default ClassSearch;
+export default AddClass;

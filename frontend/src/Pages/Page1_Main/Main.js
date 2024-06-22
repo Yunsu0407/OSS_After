@@ -1,14 +1,14 @@
 import './Foundation.css';
-import './MainPage2.css';
+import './Main.css';
 import './CalendarStyle.css';
 import { AiOutlineHome } from "react-icons/ai";
 import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import logo from '../동국대로고.png';
+import logo from './동국대로고.png';
 import TaskCalendar from './TaskCalendar.js';
 import TaskInfo from './TaskInfo.js';
-import ClassCreate from './ClassCreate.js';
-import ClassSearch from './ClassSearch.js';
+import CreateClass from './CreateClass.js';
+import AddClass from './AddClass.js';
 import ClassComponent from './ClassComponent.js';
 import axios from 'axios';
 import { LuLogOut } from "react-icons/lu";
@@ -16,7 +16,7 @@ import DummyClass from './DummyClass.json';
 import { ko } from 'date-fns/locale';
 
 //upstream과 동기화
-function MainPage2() {
+function Main() {
   const location = useLocation();
   const navigate = useNavigate();
   const [lectures, setLectures] = useState([]);
@@ -230,8 +230,8 @@ function MainPage2() {
         <div className='Main-name'>
           <AiOutlineHome className="home-icon" />
           메인페이지
-          <ClassCreate />
-          <ClassSearch onClassAdded={handleClassAdded} />
+          <CreateClass />
+          <AddClass onClassAdded={handleClassAdded} />
         </div>
         <div className="main-bottom-box">
           <div className="main-container">
@@ -265,4 +265,4 @@ function MainPage2() {
   );
 }
 
-export default MainPage2;
+export default Main;

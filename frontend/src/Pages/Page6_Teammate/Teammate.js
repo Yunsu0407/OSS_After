@@ -1,18 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import '../MainPage/Foundation.css';
-import './StudentQListPage.css';
+import '../Page1_Main/Foundation.css';
+import './Teammate.css';
 import { FaUserCircle } from "react-icons/fa";
-import '../DetailPage/DetailPage.js';
-import QListComponent from './QListComponent.js';
-import DummyQList from './DummyQList.json';
+import '../Page2_Detail/Detail.js';
+import TeammateComponent from './TeammateComponent.js';
 import axios from 'axios';
-import { Navigate } from 'react-router-dom';
 import { LuLogOut } from "react-icons/lu";
 
 const API_BASE_URL = process.env.REACT_APP_LOCAL_API_BASE_URL;
 
-function StudentQListPage() {
+function Teammate() {
   const navigate = useNavigate();
   const location = useLocation();
   const team_member = location.state?.team_member || '팀원 이름 없음';
@@ -113,10 +111,10 @@ function StudentQListPage() {
 
               <div className="q-container-box">
                 {/* {qList.map(q => (
-                  <QListComponent key={q.q_name} q_name={q.q_name} q_problem={q.q_problem} />
+                  <TeammateComponent key={q.q_name} q_name={q.q_name} q_problem={q.q_problem} />
                 ))} */}
                 {qList.map(q => (
-                  <QListComponent key={q.q_name} q_name={q.q_name} q_problem={q.q_problem} q_token={q.q_token} />
+                  <TeammateComponent key={q.q_name} q_name={q.q_name} q_problem={q.q_problem} q_token={q.q_token} />
                 ))}
               </div>
 
@@ -130,4 +128,4 @@ function StudentQListPage() {
   );
 }
 
-export default StudentQListPage;
+export default Teammate;

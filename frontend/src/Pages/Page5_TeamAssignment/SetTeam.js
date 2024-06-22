@@ -1,4 +1,4 @@
-import '../Foundation/Foundation.css';
+import '../Rest_Foundation/Foundation.css';
 import './SetTeam.css';
 import { useState, useEffect } from 'react';
 import StudentTable from './StudentTable/StudentTable';

@@ -1,9 +1,9 @@
-import './StudentQListPage.css';
+import './Teammate.css';
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
-function QListComponent({ q_name, q_problem, q_token }) {
-    // function QListComponent({ q_name, q_problem, q_token }) {
+function TeammateComponent({ q_name, q_problem, q_token }) {
+    // function TeammateComponent({ q_name, q_problem, q_token }) {
     const location = useLocation();
     const navigate = useNavigate();
     const lecture_name = location.state?.lecture_name || '강의명 없음';
@@ -53,4 +53,4 @@ function QListComponent({ q_name, q_problem, q_token }) {
     );
 }
 
-export default QListComponent;
+export default TeammateComponent;

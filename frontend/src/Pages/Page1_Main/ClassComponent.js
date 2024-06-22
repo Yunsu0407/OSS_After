@@ -1,4 +1,4 @@
-import './MainPage2.css';
+import './Main.css';
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { AiFillCalendar } from "react-icons/ai";

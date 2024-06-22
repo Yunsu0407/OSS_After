@@ -1,4 +1,4 @@
-import './MainPage2.css';
+import './Main.css';
 import React from 'react';
 import { FaRegClock } from "react-icons/fa";
 import { AiFillCalendar } from "react-icons/ai";

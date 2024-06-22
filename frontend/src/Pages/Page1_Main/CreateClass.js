@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 import { AiFillPlusCircle } from "react-icons/ai";
 import axios from 'axios';
 
-function ClassCreate() {
+function CreateClass() {
   const [isOpen, setIsOpen] = useState(false);
   const [lecture_name, setLecture_name] = useState("");
   const [optionType, setOptionType] = useState(0); // 0은 lecture, 1은 study
@@ -103,4 +103,4 @@ function ClassCreate() {
   );
 }
 
-export default ClassCreate;
+export default CreateClass;
