@@ -1,8 +1,8 @@
-import './Main.css';
+import '../Main.css';
 import React from 'react';
 import { FaRegClock } from "react-icons/fa";
 import { AiFillCalendar } from "react-icons/ai";
-import './ClassComponent.js';
+import '../ClassComponent.js';
 import { Link } from 'react-router-dom'; // React Router의 Link 컴포넌트 import
 
 function TaskInfo(props) {

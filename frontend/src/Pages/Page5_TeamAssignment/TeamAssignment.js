@@ -1,5 +1,5 @@
 import '../Rest_Foundation/Foundation.css';
-import './SetTeam.css';
+import './TeamAssignment.css';
 import { useState, useEffect } from 'react';
 import StudentTable from './StudentTable/StudentTable';
 import { useNavigate, useLocation } from 'react-router-dom';
@@ -7,7 +7,7 @@ import axios from 'axios';
 import { LuLogOut } from "react-icons/lu";
 const API_BASE_URL = process.env.REACT_APP_LOCAL_API_BASE_URL;
 
-function SetTeam() {
+function TeamAssignment() {
   const location = useLocation();
   // 유저 정보 변수 시작
   const [userName, setUserName] = useState();
@@ -209,4 +209,4 @@ function SetTeam() {
   );
 }
 
-export default SetTeam;
+export default TeamAssignment;

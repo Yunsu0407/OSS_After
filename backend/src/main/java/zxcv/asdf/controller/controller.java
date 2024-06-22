@@ -93,8 +93,8 @@ public class controller {
                     .name(name)
                     .build();
             userService.addUser(user);
-//            response.sendRedirect("http://localhost:3000/main?usertoken=" + token + "&name=" + URLEncoder.encode(name, "UTF-8") + "&access_token=" + accessToken);
-            response.sendRedirect("https://2024-1-ossp-1-checkoders-4.vercel.app/main?usertoken=" + token + "&name=" + URLEncoder.encode(name, "UTF-8") + "&access_token=" + accessToken);
+            response.sendRedirect("http://localhost:3000/main?usertoken=" + token + "&name=" + URLEncoder.encode(name, "UTF-8") + "&access_token=" + accessToken);
+//            response.sendRedirect("https://2024-1-ossp-1-checkoders-4.vercel.app/main?usertoken=" + token + "&name=" + URLEncoder.encode(name, "UTF-8") + "&access_token=" + accessToken);
         } catch (Exception e) {
             e.printStackTrace();
         }

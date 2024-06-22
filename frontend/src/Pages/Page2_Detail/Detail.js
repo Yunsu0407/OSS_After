@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Detail.css'; // DetailPage의 스타일 파일 import
-import Foundation from '../Page1_Main/Foundation.js';
+import Foundation from '../Page1_Main/Foundation/Foundation.js';
 import '../Page6_Teammate/Teammate.js';
 import { BsPencilSquare } from "react-icons/bs";
 import DoughnutChart from './DoughnutChart';

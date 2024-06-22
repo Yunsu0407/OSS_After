@@ -1,6 +1,6 @@
 import axios from 'axios';
 import '../Rest_Foundation/Foundation.css';
-import './SetAssign.css';
+import './TaskCreation.css';
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import DatePicker from 'react-datepicker';
@@ -8,7 +8,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 import { LuLogOut } from "react-icons/lu";
 const API_BASE_URL = process.env.REACT_APP_LOCAL_API_BASE_URL;
 
-function SetAssign() {
+function TaskCreation() {
   const location = useLocation();  // location 객체를 가져옴
   // 유저 정보 변수 시작
   const [userName, setUserName] = useState();
@@ -341,4 +341,4 @@ function SetAssign() {
   );
 }
 
-export default SetAssign;
+export default TaskCreation;

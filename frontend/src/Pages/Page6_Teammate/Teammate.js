@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import '../Page1_Main/Foundation.css';
+import '../Page1_Main/Foundation/Foundation.css';
 import './Teammate.css';
 import { FaUserCircle } from "react-icons/fa";
 import '../Page2_Detail/Detail.js';

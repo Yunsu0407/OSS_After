@@ -20,7 +20,6 @@ public class CodeFeedbackService {
 
     private final RestTemplate restTemplate;
 
-    @Value()
     private String apiKey;
 
     public String getCodeFeedback(String code) {

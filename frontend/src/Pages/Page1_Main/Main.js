@@ -1,19 +1,17 @@
-import './Foundation.css';
+import './Foundation/Foundation.js';
 import './Main.css';
-import './CalendarStyle.css';
+import './TaskCalendar/TaskCalendar.css';
 import { AiOutlineHome } from "react-icons/ai";
 import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import logo from './동국대로고.png';
-import TaskCalendar from './TaskCalendar.js';
-import TaskInfo from './TaskInfo.js';
-import CreateClass from './CreateClass.js';
-import AddClass from './AddClass.js';
+import TaskCalendar from './TaskCalendar/TaskCalendar.js'
+import TaskInfo from './TaskInfo/TaskInfo.js';
+import CreateClass from './Buttons/CreateClass.js';
+import AddClass from './Buttons/AddClass.js';
 import ClassComponent from './ClassComponent.js';
 import axios from 'axios';
 import { LuLogOut } from "react-icons/lu";
-import DummyClass from './DummyClass.json';
-import { ko } from 'date-fns/locale';
 
 //upstream과 동기화
 function Main() {
@@ -40,11 +38,6 @@ function Main() {
   const [classMakerToken, setClassMakerToken] = useState();
   // 페이지 이동 시 사용할 과목 변수 끝
 
-  // const [count, setCount] = useState(() => {
-  //   const savedCount = localStorage.getItem('count');
-  //   return savedCount ? parseInt(savedCount, 10) : 0;
-  // });
-
   const [closestLectureName, setClosestLectureName] = useState("");
   const [formattedDate, setFormattedDate] = useState("");
   const [deadline, setDeadline] = useState("");
@@ -54,7 +47,6 @@ function Main() {
   const fetchClassData = async () => {
     try {
       const response = await axios.get(`${API_BASE_URL}/${userToken_main}/mainpage`);
-      // const response = await axios.get(`${API_BASE_URL}/${usertoken}/mainpage`);
       setLectures(response.data.lectures);
 
       let closestDeadline = new Date(response.data.lectures[0].deadline[0]);

@@ -20,8 +20,8 @@ public class AppConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-//                        .allowedOrigins("http://localhost:3000") // React 애플리케이션의 주소
-                        .allowedOrigins("https://2024-1-ossp-1-checkoders-4.vercel.app") // React 애플리케이션의 주소
+                        .allowedOrigins("http://localhost:3000") // React 애플리케이션의 주소
+//                        .allowedOrigins("https://2024-1-ossp-1-checkoders-4.vercel.app") // React 애플리케이션의 주소
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS");
             }
         };

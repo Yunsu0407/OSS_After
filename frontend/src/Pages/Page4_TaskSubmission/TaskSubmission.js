@@ -1,5 +1,5 @@
 import '../Rest_Foundation/Foundation.css'
-import './SubmitAssign.css';
+import './TaskSubmission.css';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate, useLocation } from 'react-router-dom';
@@ -7,7 +7,7 @@ import { LuLogOut } from "react-icons/lu";
 
 const API_BASE_URL = process.env.REACT_APP_LOCAL_API_BASE_URL;
 
-function SubmitAssign() {
+function TaskSubmission() {
   // 유저 정보 변수 시작
   const [userName, setUserName] = useState();
   const [userToken, setUserToken] = useState();
@@ -264,4 +264,4 @@ function SubmitAssign() {
   );
 }
 
-export default SubmitAssign;
+export default TaskSubmission;

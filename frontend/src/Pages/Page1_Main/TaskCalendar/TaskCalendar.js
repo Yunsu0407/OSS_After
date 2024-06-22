@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css'; // css import
-import './Main.css';
-import './CalendarStyle.css'; // 커스텀 스타일
+import '../Main.css';
+import './TaskCalendar.css'; // 커스텀 스타일
 
 function TaskCalendar({ deadlines }) { // deadlines prop 추가
   const [date, setDate] = useState(new Date());
