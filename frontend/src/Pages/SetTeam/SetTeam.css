@@ -1,0 +1,156 @@
+/* bottomBox를 왼쪽, 가운데, 오른쪽으로 분할 */
+/* 왼쪽과 오른쪽 공백 */
+.leftBlank,
+.rightBlank {
+  flex: 1;
+  /* 1부분 중에서의 비율 */
+  /* background-color: white; */
+}
+
+/* 가운데 핵심 */
+.midCore {
+  flex: 6;
+  /* 4부분 중에서의 비율 */
+  /* background-color: purple; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* midCore를 lecture과 mainContent로 위, 아래 분할 */
+.lecture {
+  flex: 1;
+  /* background-color: red; */
+}
+
+.mainContent {
+  flex: 9;
+  display: flex;
+  /* background-color: blue; */
+  flex-direction: column;
+  height: 100vh;
+}
+
+.lecture {
+  padding-left: 2vw;
+  padding-top: 3vh;
+  font-size: 3.5vh;
+}
+
+.tabCover {
+  background-color: #f0bf83;
+  height: 8%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  width: 100%;
+}
+
+.assignInfoSetT {
+  height: 96%;
+  background-color: #F9EBD0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.teamSetting {
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-bottom: 2vh;
+}
+
+.teamCover {
+  height: 30%;
+  background-color: #E6EDF4;
+  font-size: 2vh;
+  padding-top: 1vh;
+  padding-left: 1vw;
+}
+
+.inputTeamInfo {
+  flex: 1;
+  background-color: #F0F0F0;
+  display: flex;
+  padding-top: 1vh;
+  padding-left: 1vw;
+}
+
+.indicateNumber {
+  font-size: 2vh;
+  padding-right: 1vw;
+}
+.getNumber {
+  padding-right: 2vw;
+}
+
+.numberBox {
+  width: 15vw;
+  height: 4vh;
+  font-size: 1.5vh;
+}
+
+.teamNumber {
+  display: flex;
+}
+
+.finishButton {
+  flex: 1;
+  padding-left: 2vw;
+}
+
+.makeTeam {
+  background-color: #7EA8EB;
+  height: 4.5vh;
+  width: 8vw;
+  cursor: pointer;
+  font-size: 2vh;
+  border-radius: 5px;
+}
+
+.currentTeamState {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-bottom: 2vh;
+  height: 100%;
+}
+
+.stateCover {
+  height: 4.5vh;
+  background-color: #E6EDF4;
+  font-size: 2vh;
+  padding-top: 1.5vh;
+  padding-left: 1vw;
+}
+
+.showTeamState {
+  flex: 1;
+  background-color: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+}
+
+.showTable {
+  flex:1;
+  height: 100%;
+}
+
+/* 기존 스타일 유지 */
+.no-team-message {
+  text-align: center;
+  font-size: 3vh; /* 글씨 크기 키움 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* 부모 요소의 전체 높이 차지 */
+}

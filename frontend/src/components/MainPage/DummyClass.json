@@ -1,0 +1,31 @@
+{
+    "Data" : 
+    [
+        {
+            "lecture_name":"객지프",
+            "lecture_madeby":"한인",
+            "option_type":"0"
+        },
+        {
+            "lecture_name":"시소프",
+            "lecture_madeby":"정준호",
+            "option_type":"0"
+        },
+        {
+            "lecture_name":"자료구조스터디",
+            "lecture_madeby":"한윤수",
+            "option_type":"1"
+        },
+        {
+            "lecture_name":"심프스터디",
+            "lecture_madeby":"윤성림",
+            "option_type":"1"
+        },
+        {
+            "lecture_name":"형식언어",
+            "lecture_madeby":"송수환",
+            "option_type":"1"
+        }
+    ]
+
+}

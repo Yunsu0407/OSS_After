@@ -1,0 +1,164 @@
+.class-info {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 100%;
+}
+
+.class-name {
+    /*객체지향프로그래밍 타이틀*/
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+
+.bottom-box {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.bottom-box-sidebar {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    position: relative; 
+}
+
+.side-bar {
+    margin-top: 30%;
+    margin-left: 50%;
+    background-color: #FFAE35;
+    width: 8vw;
+    height: 6vh;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1.5px solid #FFAE35;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: sticky; /* Make the button sticky */
+    top: 0; /* Position it at the top of its container */
+    z-index: 100; /* Ensure it stays above other elements */
+}
+
+.team-container {
+    margin-top: -5%;
+    margin-left: 50%;
+    background-color: #FFF9E9;
+    border-radius: 5px;
+    border: 1.5px solid #FFF9E9;
+    width: 7.7vw;
+    height: 26vh;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    /* 스크롤바 표시 */
+    max-height: 300px;
+    /* 최대 높이 설정 */
+}
+
+.team-name {
+    margin-top: 10%;
+    background-color: #ECF1FF;
+    width: 5.8vw;
+    height: 4.5vh;
+    border-radius: 5px;
+    border: 1.5px solid #FFF9E9;
+    cursor: pointer;
+    font-weight: bold;
+    color: #2C62EE;
+}
+
+.task-q-container {
+    flex-direction: column;
+    margin-left: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-container-title {
+    width: 45vw;
+    height: 5vh;
+    margin-top: 5vh;
+    background-color: #5A5A5A;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px 4px 0 0;
+    padding-top: 5px;
+}
+
+.task-container {
+    width: 45vw;
+    height: 32vh;
+    margin-top: 0;
+    background-color: #F1F1F1;
+    display: grid;
+    /* 그리드 레이아웃 사용 */
+    border-radius: 4px;
+    grid-template-columns: repeat(2, 1fr);
+    /* 각 열의 너비를 동일하게 설정 */
+    max-height: 300px;
+    /* Adjust the height as necessary */
+    overflow-y: auto;
+}
+
+.task {
+    margin-top: 1vw;
+    margin-left: 2vw;
+    width: 18vw;
+    height: 11vh;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+
+.task-font {
+    font-size: 2vh;
+    margin-top: 1.2vh;
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
+    justify-content: space-between;
+    align-items: center;
+    /* Space between title and button */
+}
+
+.button-style {
+    color: red;
+    margin-top: 1vh;
+    background-color: white;
+    border-radius: 5px;
+    border: 1.5px solid white;
+    cursor: pointer;
+    font-size: 1vw;
+    text-align: center;
+}
+
+/* 추가된 부분 */
+.button-done {
+    color: blue;
+}
+
+.chart-container {
+    background-color: #FFF9E9;
+    width: 23vw;
+    height: 45vh;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chart-container-title {
+    background-color: #FFAE35;
+    width: 23vw;
+    height: 5vh;
+    margin-top: 5vh;
+    margin-left: 20%;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px 4px 0 0;
+}
+

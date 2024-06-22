@@ -1,0 +1,22 @@
+[
+    {
+        "lecture_local_id" : 1,
+        "lecture_name" : "객체지향프로그래밍_01",
+        "professorName" : "한인",
+        "day1" : "월요일",
+        "day2" : "수요일",
+        "time1" : "09:00 AM - 11:00 AM",
+        "time2" : "09:00 AM - 11:00 AM",
+        "rate" : "100%"
+    },
+    {
+        "lecture_local_id" : 2,
+        "lecture_name" : "심화프로그래밍_01",
+        "professorName" : "윤성림",
+        "day1" : "화요일",
+        "day2" : "목요일",
+        "time1" : "09:00 AM - 11:00 AM",
+        "time2" : "09:00 AM - 11:00 AM",
+        "rate" : "100%"
+    }
+]

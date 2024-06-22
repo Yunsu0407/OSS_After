@@ -1,0 +1,424 @@
+.Foundation {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Foundation을 위, 아래로 분리 */
+/* 위 */
+.topCover {
+  flex: 0 0 10%;
+  background-color: #F2AC57;
+  display: flex;
+}
+
+.siteName {
+  width: 30vw;
+  height: 100%;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  display: flex;
+  align-items: center;
+}
+
+.siteName_button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 3.5vh;
+  color: white;
+}
+
+.logOut {
+  width: 20vw;
+  display: flex;
+}
+
+.logOut_button {
+  font-size: 3.5vh;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.midBlank {
+  flex: 1;
+}
+
+.specificSubjcet {
+  width: 10vw;
+  display: flex;
+}
+
+.specificSubjectButton {
+  height: 100%;
+  font-size: 3.5vh;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* 아래 */
+.bottomBox {
+  flex: 1;
+  /* background-color: gray; */
+  display: flex;
+  width: 100%;
+}
+
+/* bottomBox를 왼쪽, 가운데, 오른쪽으로 분할 */
+/* 왼쪽과 오른쪽 공백 */
+.leftBlank,
+.rightBlank {
+  flex: 1;
+  /* 1부분 중에서의 비율 */
+  /* background-color: white; */
+}
+
+/* 가운데 핵심 */
+.midCore {
+  flex: 6;
+  /* 4부분 중에서의 비율 */
+  /* background-color: purple; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* midCore를 lecture과 mainContent로 위, 아래 분할 */
+.lecture {
+  flex: 1;
+  /* background-color: red; */
+}
+
+.mainContent {
+  flex: 9;
+  display: flex;
+  /* background-color: blue; */
+  flex-direction: column;
+  height: 100vh;
+}
+
+.lecture {
+  padding-left: 2vw;
+  padding-top: 3vh;
+  font-size: 3.5vh;
+}
+
+.tabCover {
+  background-color: #FFC571;
+  height: 8%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  width: 100%;
+}
+
+.assignInfoCode {
+  height: 96%;
+  background-color: #FFEDD3;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.problemContent {
+  height: 40vh;
+  display: flex;
+  padding-top: 2vh;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+}
+
+/* 문제 내용 */
+.contentArea {
+  display: flex;
+  flex-direction: column;
+  padding-right: 1.1vw;
+  width: 49.5%;
+  max-width: 50%;
+}
+
+.contentCover {
+  font-size: 2vh;
+  padding-top: 1vh;
+  padding-left: 1vw;
+  padding-bottom: 1vh;
+  height: 3.5vh;
+  background-color: #E6EDF4;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.contentExplanation {
+  padding-left: 1vw;
+  height: 100%;
+  background-color: #F0F0F0;
+  overflow-y: scroll;
+  max-height: 32vh;
+}
+
+.contentExplanation p {
+  margin: 0.5vh;
+}
+
+.contentExplanation p:nth-child(odd) {
+  font-weight: bold;
+  /* 홀수 번째 p 태그에 볼드체를 적용 */
+  font-size: 1.7vh;
+}
+
+.contentExplanation p:nth-child(even) {
+  padding-left: 1vw;
+  font-size: 1.4vh;
+}
+
+.contentExplanation.p {
+  font-size: 10vh;
+}
+
+.CodeReviewIOExample {
+  display: flex;
+  width: 100%;
+}
+
+.CodeReviewInputExample {
+  width: 50%;
+}
+
+.CodeReviewOuputExample {
+  width: 50%;
+}
+
+/* 제출 코드 */
+.contentCode {
+  width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.codeCover {
+  font-size: 2vh;
+  padding-top: 1vh;
+  padding-left: 1vw;
+  padding-bottom: 1vh;
+  height: 3.5vh;
+  background-color: #E6EDF4;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.codeResponse {
+  display: flex;
+  height: 100%;
+  background-color: #F0F0F0;
+  padding-top: 1vh;
+  padding-left: 1vw;
+  overflow-x: auto;
+  overflow-y: scroll;
+  font-size: 1.3vh;
+  white-space: pre-wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  max-height: 30vh;
+}
+
+.feedback {
+  flex: 1;
+  display: flex;
+  height: 96%;
+  width: 96.5%;
+  flex-direction: row;
+  padding-top: 2vh;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-bottom: 1vh;
+}
+
+.gptFeedback {
+  flex: 1;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 1vw;
+}
+
+.gptCover {
+  font-size: 2vh;
+  padding-top: 1vh;
+  padding-left: 1vw;
+  height: 3.5vh;
+  background-color: #E6EDF4;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.gptContent {
+  flex: 1;
+  display: flex;
+  height: 100%;
+  max-height: 40vh;
+  /* 높이 제한 추가 */
+  padding-top: 1vh;
+  padding-left: 1vw;
+  background-color: #F0F0F0;
+  overflow-x: auto;
+  overflow-y: scroll;
+  font-size: 1.5vh;
+  white-space: pre-wrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.teamFeedback {
+  width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedCover {
+  font-size: 2vh;
+  padding-top: 1vh;
+  padding-left: 1vw;
+  height: 3.5vh;
+  background-color: #E6EDF4;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.feedContent {
+  height: 100%;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background-color: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+}
+
+.comments {
+  height: 70%;
+  /* background-color: #d5e3fa;/ */
+  border-radius: 5px;
+  padding-left: 1vw;
+  padding-top: 1vh;
+  background-color: #e6f0ff;
+  /* 더 밝은 배경색 */
+  margin-bottom: 1vh;
+  /* 댓글창과 입력창 사이 간격 추가 */
+  overflow-y: scroll;
+  max-height: 20vh;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  padding-left: 0.2vw;
+  margin: 0;
+}
+
+.one_comment {
+  margin-bottom: 1vh;
+  /* 각 댓글 사이 간격 추가 */
+}
+
+.one_comment p {
+  margin: 0;
+}
+
+.one_comment p:nth-child(1) {
+  padding-left: 0.5vw;
+  padding-bottom: 0.3vh;
+  font-size: 1.8vh;
+  /* 글자 크기 조정 */
+}
+
+
+.one_comment p:nth-child(2) {
+  padding-left: 1vw;
+  padding-bottom: 0.8vh;
+  font-size: 1.5vh;
+  /* 글자 크기 조정 */
+}
+
+.writerName {
+  font-size: 1.5vh;
+  padding-bottom: 0.3vh;
+}
+
+.writerComment {
+  font-size: 1.3vh;
+  padding-bottom: 1vh;
+}
+
+.addComment {
+  border-radius: 5px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  flex: 1;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f8ff;
+  /* 더 밝은 배경색 */
+}
+
+.userName {
+  font-size: 1.7vh;
+  flex: 1;
+  margin-bottom: 0.5vh;
+  /* 사용자 이름과 텍스트박스 사이 간격 추가 */
+}
+
+.inputTextBox {
+  padding-top: 0.3vh;
+  padding-bottom: 0.3vh;
+  height: 60%;
+  margin-bottom: 1vh;
+  /* 텍스트박스와 버튼 사이 간격 추가 */
+}
+
+.textBox {
+  height: 100%;
+  width: 100%;
+  font-size: 1.6vh;
+  /* 텍스트박스 글자 크기 조정 */
+  border-radius: 5px;
+  /* 텍스트박스 모서리 둥글게 */
+  border: 1px solid #ccc;
+  /* 텍스트박스 테두리 추가 */
+}
+
+.buttonArea {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.postButton {
+  background-color: #4CAF50;
+  /* 버튼 배경색 변경 */
+  color: white;
+  /* 버튼 글자색 변경 */
+  border: none;
+  cursor: pointer;
+  padding: 0.5vh 1vw;
+  /* 버튼 패딩 추가 */
+  border-radius: 5px;
+  /* 버튼 모서리 둥글게 */
+  font-size: 1.6vh;
+  /* 버튼 글자 크기 조정 */
+}
+
+.postButton:hover {
+  background-color: #45a049;
+  /* 버튼 호버 색상 추가 */
+}

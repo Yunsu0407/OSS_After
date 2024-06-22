@@ -1,0 +1,210 @@
+/* bottomBox를 왼쪽, 가운데, 오른쪽으로 분할 */
+/* 왼쪽과 오른쪽 공백 */
+.leftBlank,
+.rightBlank {
+  flex: 1;
+  /* 1부분 중에서의 비율 */
+  /* background-color: white; */
+}
+
+/* 가운데 핵심 */
+.midCore {
+  flex: 6;
+  /* 4부분 중에서의 비율 */
+  /* background-color: purple; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* midCore를 lecture과 mainContent로 위, 아래 분할 */
+.lecture {
+  flex: 1;
+  /* background-color: red; */
+}
+
+.mainContent {
+  flex: 9;
+  display: flex;
+  /* background-color: blue; */
+  flex-direction: column;
+  height: 100vh;
+}
+
+.lecture {
+  padding-left: 2vw;
+  padding-top: 3vh;
+  font-size: 3.5vh;
+}
+
+.tabCover {
+  background-color: #f0bf83;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  width: 100%;
+
+}
+
+.assignInfoSetAssign {
+  height: 96%;
+  background-color: #F9EBD0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* assignInfo를 5개의 div로 나눔 */
+.problemName,
+.problemExplanation,
+.problemInputs,
+.problemClosing {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vh;
+}
+
+.problemName {
+  display: flex;
+  width: 100%;
+}
+
+.problemExplanation {
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+}
+
+.problemClosing {
+  display: flex;
+}
+
+/* problemName 설정 */
+.problemNameSpace {
+  width: 8vw;
+  padding-left: 0.5vw;
+  font-size: 2.5vh;
+  padding-right: 1.5vw;
+}
+
+.problemNameInputSpace{
+  width: 100%;
+}
+
+.problemNameTextArea {
+  height: 100%;
+  width: 90%;
+}
+
+/* problemExplanation 설정 */
+.problemExplanaitonCover {
+  font-size: 2.5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: #E6EDF4;
+}
+
+.problemExplanationContent {
+  background-color: #F0F0F0;
+  height: 100%;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.problemExplanationTextArea {
+  width: 100%;
+  height: 100%;
+}
+/*problemInputs 설정 */
+
+/*problemClosing 설정 */
+.buttons {
+  display: flex;
+  flex: 1;
+  justify-content: right;
+  align-items: center;
+}
+
+.setProblemsubmitButton {
+  width: 9vw;
+  height: 5vh;
+  background-color: #7EA8EB;
+  color: white;
+  cursor: pointer;
+  font-size: 2vh;
+  border-radius: 4px;
+  border-color: #7EA8EB;
+}
+
+.problemInputs {
+  display: flex;
+}
+
+/* 입력 데이터와 예상 답안 설정 */
+.getInputData, .getExpectedAnswer, .getDeadline {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.inputIndicate {
+  width: 15vw;
+}
+
+.inputDataBox {
+  flex: 1;
+}
+
+.inputBox {
+  width: 90%;
+  height: 5vh;
+}
+
+/* 입력 데이터와 예상 답안 섹션의 스타일링 */
+
+/* 공통 스타일 */
+.inputIndicate {
+  font-weight: bold;
+}
+
+.inputBox {
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+/* 입력 데이터 */
+.getInputData .inputIndicate {
+  color: #3e86d4;
+}
+
+.getInputData .inputBox {
+  border-color: #000000;
+}
+
+/* 예상 답안 */
+.getExpectedAnswer .inputIndicate {
+  color: #676565;
+}
+
+.getExpectedAnswer .inputBox {
+  border-color: #464242;
+}
+
+/* 제출 기한 */
+.getDeadline .inputIndicate {
+  color: #ff806a;
+}
+
+.getDeadline .inputBox {
+  border-color: #ff806a;
+}
+
+.problemNameTextArea::placeholder,
+.problemExplanationTextArea::placeholder,
+.inputBox::placeholder {
+  color: #d3d3d3; /* 연한 회색으로 설정 */
+  opacity: 1; /* 불투명도 설정 (0에서 1까지 값) */
+}

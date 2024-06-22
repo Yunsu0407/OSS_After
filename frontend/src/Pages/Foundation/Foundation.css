@@ -1,0 +1,75 @@
+.Foundation{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Foundation을 위, 아래로 분리 */
+/* 위 */
+.topCover{ 
+  flex: 0 0 10%;
+  background-color: #F2AC57;
+  display: flex;
+}
+
+.siteName{
+  width: 30vw;
+  height: 100%;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  display: flex;
+  align-items: center; 
+}
+
+.siteName_button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 3.5vh;
+  color: white;
+}
+
+.logOut{
+  width: 20vw;
+  display: flex;
+}
+
+.logOut_button{
+  font-size: 3.5vh;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center; 
+}
+
+.midBlank{
+  flex: 1;
+}
+
+.specificSubjcet{
+  width: 10vw;
+  display: flex;
+}
+
+.specificSubjectButton{
+  height: 100%;
+  font-size: 3.5vh;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center; 
+}
+
+
+/* 아래 */
+.bottomBox{
+  flex: 1;
+  /* background-color: gray; */
+  display: flex;
+  width: 100%;
+}
+
+
+
